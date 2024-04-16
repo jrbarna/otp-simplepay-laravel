@@ -1,0 +1,37 @@
+{
+    "name": "jrbarna/simplepay-laravel",
+    "description": "OTP SimplePay integration for Laravel",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": ">=9.0",
+        "ext-dom": "*",
+        "ext-openssl": "*",
+        "ext-simplexml": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jrbarna\\SimplepayLaravel\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jrbarna\\SimplePayLaravel\\SimplePayLaravelServiceProvider"
+            ],
+            "aliases": {
+                "SimplePayLaravel": "Jrbarna\\SimplePayLaravel\\SimplePayLaravelFacade"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "jrbarna",
+            "email": "jr.barna@gmail.com"
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-# SimplePay for Laravel
+# OTP SimplePay integration for Laravel
 
 ## Installation
 

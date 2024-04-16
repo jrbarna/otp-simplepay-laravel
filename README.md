@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-composer require jrbarna/simplepay-laravel
+composer require jrbarna/otp-simplepay-laravel
 ```
 Publish config file
 

@@ -1,5 +1,5 @@
 {
-    "name": "jrbarna/simplepay-laravel",
+    "name": "jrbarna/otp-simplepay-laravel",
     "description": "OTP SimplePay integration for Laravel",
     "type": "library",
     "require": {
